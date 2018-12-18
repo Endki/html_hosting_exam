@@ -1,29 +1,34 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
 <head>
-<title>web-practice</title>
-<meta charset="UTF-8">
+  <title>For BORY</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="http://10.10.9.239/bory/style.css">
 </head>
-
 <body>
-<h1><a href="index.html">WEB </a></h1>
-
-<ol>
-<li><a href="1.html">HTML</a></li>
-<li><a href="2.html">CSS</a></li>
-<li><a href="3.html">JavaScript</a></li>
-</ol>
-
-<h2>WEB</h2>
-
- The World Wide Web (abbreviated WWW or the Web) is an information space where documents and other
- web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links,
- and can be accessed via the Internet.[1] English scientist Tim Berners-Lee invented the World Wide 
- Web in 1989. He wrote the first web browser computer program in 1990 while employed at CERN in Switzerland.
- [2][3] The Web browser was released outside of CERN in 1991, 
-first to other research institutions starting in January 1991 and to the general public on the Internet in
- August 1991. 
-
- 
-</body>
-</html>
+  <script language="javascript">
+	passwd = prompt("비밀번호");
+	if(passwd == 0000){
+		document.write("hi");
+	}else{
+		document.write("out");
+		location.href="http://bory.ga/bory/out.html";
+  </script>
+  <h1><a href="index.html">BORY</a></h1>
+  <div id="grid">
+     <ul  style="border-right:1px solid">
+      <li><a href="picture.html">사진</a></>
+      <li><a href="workboard.html">일정표</a></li>
+      <li><a href="board.html">게시판</a></li>
+    </ul>
+    <div id="article">
+        <h2>HOME</h2>
+        <p>
+         2018.12.08 / 도메인 구입 완료<br>
+         2018.12.09 / index 구성 완료<br>
+         2018.12.10 / 구글 일정표 따오기 완료<br>
+        </p>
+      </div>
+  </div>
+  </body>
+  </html>
