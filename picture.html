@@ -3,7 +3,7 @@
 <head>
   <title>For BORY</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="http://10.10.9.239/bory/style.css">
+  <link rel="stylesheet" type="text/css" href="http://bory.ga/style.css">
 </head>
 <body>
   <h1><a href="index.html">BORY</a></h1>
@@ -15,9 +15,13 @@
     </ul>
     <div id="article">
         <h2>보리의 사진 모음</h2>
-        <p>
-          <input type="button" value="첨부 파일 올리기" onclick="alert('준비중')">
+        <form action="http://bory.ga/upload.php" method="post" enctype="multipart/form-data">
+		<p>
+		  <input type="file" name="boryimage">
+          <input type="submit">
+		  <!--<input type="button" value="첨부 파일 올리기" onclick="alert('준비중')">-->
         </p>
+		</form>
       </div>
   </div>
   </body>
